@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>kakaobd5e626fd8ad0592f6cf5bcd449f53f3</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kakaokompassauth</string>
+		<string>kakaolink</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>사진을 찍기 위해 카메라에 액세스합니다.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/SUITE-Bold.otf</string>
+		<string>Fonts/SUITE-Heavy.otf</string>
+		<string>Fonts/SUITE-Light.otf</string>
+		<string>Fonts/SUITE-Medium.otf</string>
+		<string>Fonts/SUITE-Regular.otf</string>
+		<string>Fonts/SUITE-SemiBold.otf</string>
+		<string>Fonts/SUITE-ExtraBold.otf</string>
+		<string>Fonts/Cafe24Oneprettynight.ttf</string>
+		<string>Fonts/오뮤_다예쁨체.ttf</string>
+	</array>
+</dict>
+</plist>

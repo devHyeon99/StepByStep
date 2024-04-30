@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SUITE-Regular.otf">
+            <string>SUITE-Regular</string>
+        </array>
+        <array key="SUITE-SemiBold.otf">
+            <string>SUITE-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="communityCell" rowHeight="80" id="0kK-Iy-DwK" customClass="CommunityCell" customModule="StepByStep" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0kK-Iy-DwK" id="FO9-H7-w1O">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="루틴 제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nML-l7-YQh">
+                        <rect key="frame" x="8" y="8" width="224" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="224" id="0uc-yg-2P2"/>
+                            <constraint firstAttribute="height" constant="21" id="xSl-a7-Ibz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SUITE-SemiBold" family="SUITE" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRK-rs-LQG">
+                        <rect key="frame" x="298" y="49" width="15" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="6gG-Vz-XAe"/>
+                            <constraint firstAttribute="height" constant="13" id="WF2-Eg-dWA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SUITE-SemiBold" family="SUITE" pointSize="10"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqO-TA-Wgq">
+                        <rect key="frame" x="292" y="22" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Ns2-UX-JZW"/>
+                            <constraint firstAttribute="width" constant="25" id="WeY-tr-EG6"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <imageReference key="image" image="hand.thumbsup" catalog="system"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="upBtn:" destination="0kK-Iy-DwK" eventType="touchUpInside" id="dtg-yQ-0oq"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="루틴 내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzq-Tn-HLN">
+                        <rect key="frame" x="8" y="28" width="224" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="f6J-UD-WFJ"/>
+                            <constraint firstAttribute="width" constant="224" id="gIP-xK-tAh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SUITE-Regular" family="SUITE" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="루틴시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxC-OY-Sw0">
+                        <rect key="frame" x="8" y="50" width="224" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="224" id="e8d-Lx-rEX"/>
+                            <constraint firstAttribute="height" constant="21" id="f4E-vW-mLy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SUITE-Regular" family="SUITE" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="nML-l7-YQh" firstAttribute="leading" secondItem="FO9-H7-w1O" secondAttribute="leading" constant="8" id="12l-tT-ggk"/>
+                    <constraint firstItem="CqO-TA-Wgq" firstAttribute="top" secondItem="FO9-H7-w1O" secondAttribute="top" constant="22" id="6pe-fL-r22"/>
+                    <constraint firstAttribute="trailing" secondItem="CqO-TA-Wgq" secondAttribute="trailing" constant="3" id="7dE-bD-4bz"/>
+                    <constraint firstItem="DxC-OY-Sw0" firstAttribute="top" secondItem="zzq-Tn-HLN" secondAttribute="bottom" constant="1" id="C2g-mp-2BD"/>
+                    <constraint firstAttribute="trailing" secondItem="VRK-rs-LQG" secondAttribute="trailing" constant="7" id="De0-Re-bQO"/>
+                    <constraint firstItem="DxC-OY-Sw0" firstAttribute="leading" secondItem="FO9-H7-w1O" secondAttribute="leading" constant="8" id="Dyu-QV-KZN"/>
+                    <constraint firstItem="VRK-rs-LQG" firstAttribute="top" secondItem="FO9-H7-w1O" secondAttribute="top" constant="49" id="Vh1-Y4-SZG"/>
+                    <constraint firstItem="zzq-Tn-HLN" firstAttribute="leading" secondItem="FO9-H7-w1O" secondAttribute="leading" constant="8" id="XZI-0I-5dB"/>
+                    <constraint firstItem="nML-l7-YQh" firstAttribute="top" secondItem="FO9-H7-w1O" secondAttribute="top" constant="8" id="hpf-oI-E8Z"/>
+                    <constraint firstAttribute="bottom" secondItem="VRK-rs-LQG" secondAttribute="bottom" constant="18" id="qrg-2Q-xVP"/>
+                    <constraint firstAttribute="bottom" secondItem="DxC-OY-Sw0" secondAttribute="bottom" constant="9" id="u9Q-BY-kkA"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="maskToBound" value="YES"/>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="routineDisc" destination="zzq-Tn-HLN" id="w6S-QE-4XV"/>
+                <outlet property="routineName" destination="nML-l7-YQh" id="Jng-EB-LX0"/>
+                <outlet property="routineTime" destination="DxC-OY-Sw0" id="uw9-fR-Q6I"/>
+                <outlet property="upButton" destination="CqO-TA-Wgq" id="pGF-os-0xj"/>
+                <outlet property="upCount" destination="VRK-rs-LQG" id="JpR-te-1R6"/>
+            </connections>
+            <point key="canvasLocation" x="54.961832061068698" y="-2.8169014084507045"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hand.thumbsup" catalog="system" width="123" height="128"/>
+    </resources>
+</document>
