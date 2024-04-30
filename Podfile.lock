@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (5.1.0)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - DropDown (2.3.13)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - KakaoSDKAuth (2.13.1):
+    - KakaoSDKCommon (= 2.13.1)
+  - KakaoSDKCommon (2.13.1):
+    - KakaoSDKCommon/Common (= 2.13.1)
+    - KakaoSDKCommon/Network (= 2.13.1)
+  - KakaoSDKCommon/Common (2.13.1)
+  - KakaoSDKCommon/Network (2.13.1):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.13.1)
+  - KakaoSDKShare (2.13.1):
+    - KakaoSDKCommon (= 2.13.1)
+    - KakaoSDKTemplate (= 2.13.1)
+  - KakaoSDKTalk (2.13.1):
+    - KakaoSDKTemplate (= 2.13.1)
+    - KakaoSDKUser (= 2.13.1)
+  - KakaoSDKTemplate (2.13.1):
+    - KakaoSDKCommon/Common (= 2.13.1)
+  - KakaoSDKUser (2.13.1):
+    - KakaoSDKAuth (= 2.13.1)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.1)
+  - Charts
+  - DropDown
+  - FMDB
+  - KakaoSDKAuth
+  - KakaoSDKCommon
+  - KakaoSDKShare
+  - KakaoSDKTalk
+  - KakaoSDKTemplate
+  - KakaoSDKUser
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - DropDown
+    - FMDB
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKShare
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  KakaoSDKAuth: d9de0cb0c723441ced3616d481952bde34438dcb
+  KakaoSDKCommon: a16807e19984a0a208c3117c7ef117f101a9a128
+  KakaoSDKShare: c5d7f1cf9dc38a0a084892f3cab3469c3a8a789d
+  KakaoSDKTalk: 4e43ecb1484191783bf7439da536be8677a0619b
+  KakaoSDKTemplate: 9732b6123946efd1dbafacd0e807ac76c1b3d71c
+  KakaoSDKUser: 92d34cf6af7b123c22a7ee44424332123e356901
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 1424a935ddf6028313fc630fe7419353e6d6cf80
+
+COCOAPODS: 1.12.1
